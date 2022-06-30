@@ -10,7 +10,7 @@ services:
     volumes:
       - ./:/app:ro
     environment:
-      - CONNECTIONSTRING=mongodb://root:password@mongo:27017/post?authSource=admin
+      - CONNECTIONSTRING=mongodb://root:password@mongo:27017/livsmedel?authSource=admin
 
   mongo:
     container_name: my-mongoDB
