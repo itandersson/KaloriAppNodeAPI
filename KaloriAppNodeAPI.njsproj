@@ -29,6 +29,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include=".dockerignore" />
     <Content Include="app.js" />
     <Content Include="public\readme\MobileFirst1.png" />
     <Content Include="public\readme\MobileFirst2.png" />
