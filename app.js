@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
-var food = require('./routes/food');
+var calculate_calorie_content = require('./routes/calculate_calorie_content');
 
 var app = express();
 
@@ -27,7 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
-app.use('/food', food);
+app.use('/calculate_calorie_content', calculate_calorie_content);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

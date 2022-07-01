@@ -35,7 +35,7 @@
     <Content Include="public\readme\MobileFirst1.png" />
     <Content Include="public\readme\MobileFirst2.png" />
     <Content Include="public\readme\Model1.png" />
-    <Content Include="routes\food.js">
+    <Content Include="routes\calculate_calorie_content.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="routes\index.js" />

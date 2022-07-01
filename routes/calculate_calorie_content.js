@@ -4,7 +4,7 @@ var router = express.Router();
 
 /* GET food listing. */
 router.get('/', function (req, res) {
-    res.send('Test Food!');
+    res.send("253");
 });
 
 module.exports = router;
