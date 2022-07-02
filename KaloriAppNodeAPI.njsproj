@@ -31,7 +31,7 @@
   <ItemGroup>
     <Content Include=".dockerignore" />
     <Content Include="app.js" />
-    <Content Include="models\foodModel.js" />
+    <Content Include="models\livsmedelModel.js" />
     <Content Include="public\readme\MobileFirst1.png" />
     <Content Include="public\readme\MobileFirst2.png" />
     <Content Include="public\readme\Model1.png" />
@@ -43,12 +43,16 @@
     <Content Include="package.json" />
     <Content Include="public\stylesheets\main.css" />
     <Content Include="README.md" />
+    <Content Include="seeders\livsmedelSeeder.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="views\index.pug" />
     <Content Include="views\layout.pug" />
     <Content Include="views\error.pug" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="models\" />
+    <Folder Include="seeders\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
     <Folder Include="public\javascripts\" />
