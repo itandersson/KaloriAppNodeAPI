@@ -2,7 +2,27 @@
 if (process.env.CONNECTIONSTRING == null) { process.env.CONNECTIONSTRING = 'mongodb://root:password@localhost:27017/livsmedel?authSource=admin'; }
 
 const mongoose = require('mongoose');
-const livsmedel = require("../models/livsmedelModel");
+const Livsmedel = require("../models/livsmedelModel");
+
+const seedLivsmedel = [
+    {
+        vara: "socker",
+        kj: 1700,
+        kcal: 400,
+        fett: 0,
+        kolhydrat: 100,
+        protein: 0,
+        salt: 0
+    },
+    {
+        vara: "kakao",
+        kj: 1647,
+        kcal: 394,
+        fett: 22,
+        kolhydrat: 11,
+        protein: 24,
+        salt: 0.02
+    }];
 
 mongoose.connect(process.env.CONNECTIONSTRING, {
     useNewUrlParser: true, useUnifiedTopology: true })
@@ -13,15 +33,9 @@ mongoose.connect(process.env.CONNECTIONSTRING, {
         console.log(err);
     });
 
-const seedLivsmedel = [
-    {
-        matvara: 'Socker',
-        vikt: 100
-    }];
-
 const seedDB = async () => {
-    await livsmedel.deleteMany({});
-    await livsmedel.insertMany(seedLivsmedel);
+    await Livsmedel.deleteMany({});
+    await Livsmedel.insertMany(seedLivsmedel);
 };
 
 seedDB().then(() => {
