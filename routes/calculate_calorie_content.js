@@ -6,6 +6,11 @@ var express = require('express');
 var router = express.Router();
 const Livsmedel = require("../models/livsmedelModel");
 
+/* GET root. */
+router.get('/', (req, res) => {
+    res.send('The page does not exist! 404')
+})
+
 /* GET param. */
 router.get('/:param', function (req, res) {
     const param = req.params.param;
