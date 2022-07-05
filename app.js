@@ -16,7 +16,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/calculate_calorie_content', calculate_calorie_content);
 
-
 app.set('port', process.env.PORT || 3000);
 
 var server = app.listen(app.get('port'), function () {
