@@ -32,14 +32,11 @@
     <Content Include=".dockerignore" />
     <Content Include="app.js" />
     <Content Include="models\livsmedelModel.js" />
-    <Content Include="public\readme\MobileFirst1.png" />
-    <Content Include="public\readme\MobileFirst2.png" />
-    <Content Include="public\readme\Model1.png" />
+    <Content Include="public\readme\KaloriAppApi.png" />
     <Content Include="routes\calculate_calorie_content.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="routes\index.js" />
-    <Content Include="routes\users.js" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\main.css" />
     <Content Include="README.md" />
