@@ -46,9 +46,6 @@
     <Content Include="seeders\livsmedelSeeder.js">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="views\index.pug" />
-    <Content Include="views\layout.pug" />
-    <Content Include="views\error.pug" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="models\" />
@@ -59,7 +56,6 @@
     <Folder Include="public\readme\" />
     <Folder Include="public\stylesheets\" />
     <Folder Include="routes\" />
-    <Folder Include="views\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>

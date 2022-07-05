@@ -1,5 +1,6 @@
-Kalori App is a website under development. The website is intended to help people keep track of calorie intake.
-This part will be the backend of the app. The plan is to use NodeJS with the MongoDB database.
+Kalori App is a website under development. The website is intended to help people keep track of calorie intake. This project will not be completed. The intention is just to work out on how to communicate with an API.
+
+This is the API.
 # Plan/Model of first iteration
 ## Form
 ![MobileFirst1.png](public/readme/MobileFirst1.png "Mobile First")
