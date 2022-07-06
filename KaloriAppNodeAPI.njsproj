@@ -32,7 +32,8 @@
     <Content Include=".dockerignore" />
     <Content Include="app.js" />
     <Content Include="models\livsmedelModel.js" />
-    <Content Include="public\readme\KaloriAppApi.png" />
+    <Content Include="public\readme\DockerDesktop.png" />
+    <Content Include="public\readme\Postman.png" />
     <Content Include="routes\calculate_calorie_content.js">
       <SubType>Code</SubType>
     </Content>
