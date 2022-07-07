@@ -22,7 +22,7 @@ router.get('/:param', function (req, res) {
         } else if (livsmedel === null) {
             res.json({ api: 'Finns inte i databasen!' });
         } else {
-            res.json({ api: livsmedel });
+            res.json(livsmedel);
         }
     });
 });
